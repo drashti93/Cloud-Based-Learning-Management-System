@@ -1,0 +1,59 @@
+body{
+    background-color: #f9f9f9 !important;
+}
+
+.signin_nav{
+    text-align: center;
+    background: white;
+    font-size: 25px;
+}
+
+#sjsu_logo{
+    height: 26px;
+}
+
+#sjsu_full_logo{
+    height: 40px;
+    margin-top: 20px;
+}
+
+#signin_container{
+    margin: auto;
+    max-width: 33% !important; 
+    text-align: center !important;
+border: solid 1px #ddd;     
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 450px;
+}
+
+.logo_div{
+    border-bottom: solid gray;
+    margin: 40px;
+}
+
+#input_form{
+    margin: 10px 10px;
+    line-height: 35px;
+    border-radius: 3px;
+    width: 80%;
+    border: solid 1px #ddd;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+#form_div{
+    margin: 20px;
+    padding-top: 40px;
+    border-top: solid 1px #ddd;
+}
+
+#signup_link{
+    color: #777;
+    text-align: left;
+}
+
+.signin_p, .signin_nav{
+    color:#777;
+}

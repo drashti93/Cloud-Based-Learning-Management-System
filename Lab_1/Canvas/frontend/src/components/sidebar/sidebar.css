@@ -1,0 +1,167 @@
+.wrapper {
+  display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#sidebar {
+  
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 999;
+  background: #0055a2;
+  color: #777;
+  transition: all 0.3s;
+}
+
+#logo-gold{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 40px;
+  width:90px;
+  
+}
+
+#div_logo_gold{
+position: fixed;
+background: #f9f9f9;
+margin-bottom: 3%;
+width: 100px;
+}
+
+#sidebarbutton{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#user_image_sidebar{
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: solid white;
+}
+
+.containerSideBar{
+  position: relative;
+  padding: 10px;
+  color: white;
+}
+
+.fas{
+  font-size: 30px;
+  color: white;
+}
+
+#sidebar{
+  text-align: center;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0px; /* 0 width - change this with JavaScript */
+  position: fixed; /*Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  margin-left: 100px;
+}
+
+.active{
+    color: #0055a2;
+}
+
+/* The sidebar links */
+.sidebar a {
+
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar-header{
+  min-height: 30px;
+  border-bottom: 1px solid grey;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #777
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+#sidebarbutton:hover{
+  background-color: #0081cc34;
+
+}
+
+.sidebar-content-area{
+  padding: 20px;
+}
+
+
+.term{
+  font-size: 11px;
+  color: lightblue;
+}
+
+.course-area{
+  padding: 10px 10px 0px 0px;
+  color: #429EC0 !important;
+  font-family: "Segoe UI";
+  font-size: 15px !important;
+}
+.course-area:hover{
+  cursor: pointer;
+}
+
+.disabled{
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#content_div{
+  margin-top: 50px;
+}
+
+.inner_image_div{
+  margin-bottom: 10px;
+
+}
+
+#logout{
+  margin-bottom: 3px;
+}

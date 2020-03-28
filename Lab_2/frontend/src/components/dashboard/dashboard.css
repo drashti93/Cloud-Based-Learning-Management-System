@@ -1,0 +1,37 @@
+.mycontainer{
+    margin-left: 100px;
+}
+
+.card{
+    height: 250px;
+    width: 262px;
+    margin-left: 36px;
+    margin-bottom: 36px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3)
+}
+
+.card-img-top{
+  height: 150px;
+  background: crimson !important;
+  border-bottom: solid #777 1px;
+}
+
+#dash_title{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 136px;
+  border-bottom: solid black;
+}
+
+.p_dashboard{
+    font-size: 17px;
+    color: #777;
+    align-items: left;
+}
+
+
+.content-area {
+    margin-top: 100px;
+    margin-left: 170px;
+    min-width: 100%;
+}

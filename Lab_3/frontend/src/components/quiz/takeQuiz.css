@@ -1,0 +1,8 @@
+.block{
+    border: solid black 1px;
+}
+
+#points{
+    display: inline;
+    margin-left: 500px;
+}

@@ -1,0 +1,56 @@
+
+
+#user_image{
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: solid #777;
+}
+
+.profile_p{
+    display: inline-flex;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.edit_form{
+    
+    width: 100%;
+}
+
+.input_form{
+    padding: 10px 10px 10px 10px;
+    width:200px;
+    display: block;
+    
+    
+}
+
+#sjsuid{
+    padding: 10px 10px 10px 10px;
+}
+
+#edit_button{
+    margin-left: 200px;
+    background: #0055a2;
+}
+
+#save_button {
+    margin-left:10px;
+    width: 100px;
+}
+
+.profile_container{
+    max-width: 100% !important;
+    /* margin-left: 300px; */
+}
+
+.picture_div{
+    margin-left: 280px;
+    margin-bottom: 40px;
+}
+
+.form_container{
+    max-width: 650px !important;
+    width: 60% !important;
+}

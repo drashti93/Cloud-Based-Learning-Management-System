@@ -1,0 +1,93 @@
+.course-content-area{
+    min-width: 100%;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+.course-option-area{
+    min-width: 120px;
+}
+
+.course-option-display{
+    min-width : 900px;
+    margin-left: 60px;
+
+}
+
+.single-course-option{
+    padding: 10px;
+}
+
+.single-course-option:hover{
+    cursor: pointer;
+}
+
+
+.single-course-option:hover{
+    background-color: #0055a2;
+    color:white;
+}
+
+.assignment-container{
+    padding: 20px;
+    background: #f5f5f5;
+    padding-bottom: 72px;
+    border-top: none;
+    border: 1px solid lightgray;
+    max-width: 900 px !important;
+}
+
+
+.single-assignment-area{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.assignment-heading-section{
+    margin-bottom: 20px;
+}
+
+.people-image{
+    height: 40px;
+    border-radius: 50%;
+    border: solid white;
+}
+
+.assignment-due{
+    font-size: 11px;
+    color : darkgray;
+}
+
+.announcement-row{
+    padding: 20px;
+    border-top: 1px solid darkgrey;
+}
+
+.announcement-image{
+    margin-right: 30px;
+}
+
+.announcement-content{
+    min-width: 750px;
+}
+
+#assignment_add{
+    position: absolute;
+    left: 1050px;
+    background-color: #0055a2;
+}
+
+.course_row{
+    margin-left: 45px;
+}
+
+.upload{
+    margin: 10px;
+}
+
+.download_file{
+    color: #0055a2;
+    font-size: 25px;
+}

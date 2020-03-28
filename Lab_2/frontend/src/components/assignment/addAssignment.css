@@ -1,0 +1,35 @@
+
+#assignment_container{
+    max-width: 720px !important;
+     margin-top: 60px;
+     margin-bottom: auto;
+     width: 700px;
+ }
+ 
+ #department{
+     width: 230px;
+ }
+ 
+ #h1_assignment{
+     border-bottom: 1px solid darkslateblue;
+     margin-bottom: 50px;
+     font-size: 40px;
+     font-family: sans-serif;
+     color: darkslateblue;
+ }
+ 
+ .form_assignment{
+     padding-right: 20px !important;
+     padding-left: 20px !important;
+     color: darkslateblue;
+ }
+
+ #assignment_description{
+     width: 642px;
+     height: 200px;
+ }
+
+ #save_assignment{
+     margin-left: 20px;
+     width: 100px;
+ }

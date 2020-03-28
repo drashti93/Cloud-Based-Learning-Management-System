@@ -1,0 +1,47 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import Sidebar from './components/sidebar/sidebar';
+import Signin from './components/auth/signin';
+import Signup from './components/auth/signup';
+import { mount, shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import {configure} from 'enzyme'
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+import reducer from './reducers';
+import thunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+const store = createStore(reducer, composeWithDevTools(
+  applyMiddleware(thunk),
+  // other store enhancers if any
+));
+
+configure({ adapter: new Adapter() })
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<Provider store={store}><App /></Provider>, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+
+describe('<Signin/>', function(){
+  it('renders', () => {
+      const wrapper = mount(<Provider store={store}><Signin/></Provider>);
+      expect(wrapper.find('.signup_nav').text()).toBe("Connecting to ")
+    });
+});
+
+describe('<Signup/>', function(){
+  it('renders', () => {
+      const wrapper = mount(<Provider store={store}><Signup/></Provider>);
+      expect(wrapper.find('.signup_nav').text()).toBe("Connecting to ")
+    });
+});
+
+describe('<Sidebar/>', function(){
+  it('renders', () => {
+    const wrapper = mount(<Provider store={store}><Sidebar/></Provider>);
+    expect(wrapper.find('#logo-gold').prop('src')).toEqual("/assets/images/sjsu-logo-gold.png")
+  });
+});

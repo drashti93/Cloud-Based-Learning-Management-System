@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sidebar.css">
+        <!-- <link rel="stylesheet" href="style2.css"> -->
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Sidebar -->
+            <div>
+                <a><img id="logo-gold" src="sjsu-logo-gold.png"></a>
+            </div>
+            <nav id="sidebar">
+                <ul class="list-unstyled components">
+                    <li id="sidebarbutton">
+                        <a href="#" onclick="openNav1()">
+                            <div class="container">
+                                <div class="inner_div"><img id="user_image" src="user_image.png"></div>
+                                <div class="text">Account</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="sidebarbutton">
+                        <a href="#" onclick=location.href='http://localhost:3000/dashboard' class="active">
+                            <div class="container">
+                                <div class="inner_div"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="text">Dashboard</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="sidebarbutton">
+                        <a href="#" onclick="openNav3()">
+                            <div class="container">
+                                <div class="inner_div"><i class="fas fa-book"></i></div>
+                                <div class="text">Courses</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="sidebarbutton">
+                        <a href="#" onclick="openNav4()">
+                            <div class="container">
+                                <div class="inner_div"><i class="fas fa-user-friends"></i></div>                               
+                                <div class="text">Groups</div>
+                            </div>
+                        </a>   
+                    </li>
+                </ul>
+            </nav>
+            <div id="mySidebar1" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+                    <div class="container">
+                        <div class="inner_div"><img id="user_image" src="user_image.png"></div>
+                        <div class="text">Account</div>
+                    </div>
+                    <a href="#">Profile</a>
+                    <a href="#">Files</a>
+                  </div>
+            </div>
+            <div id="mySidebar3" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+                    <h3> Courses</h3>
+                    <a href="#">Course1</a>
+                    <a href="#">Course2</a>
+                    <a href="#">Course3</a>
+                    <a href="#">Course4</a>
+                  </div>
+            </div>
+            <div id="mySidebar4" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+                    <h3>Groups</h3>
+                    <a href="#">all groups</a>
+                   
+            </div>
+        </div>
+            
+        <script>
+            function openNav1() {
+            document.getElementById("mySidebar1").style.width = "250px";
+            closeNav3();
+            closeNav4();
+          }
+          function openNav3() {
+            document.getElementById("mySidebar3").style.width = "250px";
+            
+            closeNav1();
+            closeNav4();
+          }
+          function openNav4() {
+            document.getElementById("mySidebar4").style.width = "250px";
+          
+            closeNav3();
+            closeNav1();
+          }
+          
+          /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+          function closeNav1() {
+            document.getElementById("mySidebar1").style.width = "0";
+          }
+          function closeNav3() {
+            document.getElementById("mySidebar3").style.width = "0";
+          }
+          function closeNav4() {
+            document.getElementById("mySidebar4").style.width = "0";
+          }
+        </script>
+        
+    </body>
+</html>

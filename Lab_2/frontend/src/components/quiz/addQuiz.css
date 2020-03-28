@@ -1,0 +1,15 @@
+.pCorrect{
+    display: inline !important;
+    margin-left: 150px;
+}
+
+.isAnswer{
+    margin: 5px;
+}
+
+.fa-trash-alt{
+    color: black;
+    font-size: 20px;
+    margin-left: 530px;
+    cursor: pointer;
+}

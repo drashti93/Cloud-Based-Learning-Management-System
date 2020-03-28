@@ -1,0 +1,8 @@
+[{"id":1, "course_id":202, "file_name":"test.pdf", "location":"Downloads/Blah"},
+ {"id":2, "course_id":202, "file_name":"Sample File 2", "location":"Downloads/Blah"},
+ {"id":3, "course_id":273, "file_name":"HonestyPledge.pdf_273_1552799586408.pdf", "location":"/public"},
+ {"id":4, "course_id":273, "file_name":"Test_273_1552799816477.pdf", "location":"/public"},
+ {"id":5, "course_id":273, "file_name":"Assignment1_273_1552800091559.jpg", "location":"/public"},
+ {"id":6, "course_id":273, "file_name":"Assignment1_273_1552855751850.jpg", "location":"/public"},
+ {"id":7, "course_id":273, "file_name":"Assignment2_273_1552855863711.jpg", "location":"/public"},
+ {"id":8, "course_id":273, "file_name":"Assignment2_273_1552855948051.jpg", "location":"/public"}]
