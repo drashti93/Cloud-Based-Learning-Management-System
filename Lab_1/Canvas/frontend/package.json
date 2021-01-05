@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@react-pdf/renderer": "^1.4.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "custom-error": "^0.2.1",
     "draggable": "^4.2.0",
     "enzyme": "^3.9.0",
